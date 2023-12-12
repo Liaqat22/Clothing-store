@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Rajdhani:wght@300&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rajdhani', sans-serif; */
+*{
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+html{
+  font-size: 62.5%;
+}
+img{
+  width: 100%;
+}
+.width75-100{
+  width: 75%;
+}
+.container-fluid{
+  margin: 2rem 0rem;
+    padding: 0rem 4rem;
+}
+.containerfluidnav{
+  margin: auto;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 1rem rgb(177, 175, 175);
+}
+.row{
+  display: flex;
+  align-items: center;
+}
+.active{
+  border-bottom: .2rem solid rgb(7, 198, 141);
+}
+/* ============================================ Navbar ========================================== */
+.nav-link{
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 1rem;
+}
+.navbar-brand{
+  font-size: 3rem;
+  color: cornflowerblue;
+}
+
+.dropdown-item {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+ /* ======================================== buttons ======================================= */
+.cartDetailBTN{
+  text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: 0.7rem;
+    padding: 0.5rem 1rem;
+margin: 0rem .3rem;
+}
+.adminmenuBTN{
+  text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: darkgoldenrod;
+    border: none;
+}
+
+/* =============================== headings ================================================== */
+.productTitle{
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.paragraphText{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.price{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.card{
+  border-radius: 1.4rem;
+margin: 1rem 0rem;
+}
+.card:hover{
+  box-shadow: 0 0 1.4rem gray;
+transition: 0.3s;
+}
+.card-body{
+  padding: 1.5rem;
+}
+.card-img-top{
+  border-radius: 1.4rem 1.4rem 0 0;
+
+}
+
+/* =================================== table ================================================ */
+.table{
+  text-align: center;
+}
+.tableData{
+  font-size: 1.6rem;
+}
+.tablehead{
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: darkolivegreen;
+}
+.tableCOl8{
+  border: 0.1rem solid gold;
+  padding: 2rem;
+  border-radius: 1.6rem;
+}
+.tableCOl3{
+  border: 0.1rem solid gold;
+  padding: 2rem;
+  border-radius: 1.6rem;
+  height: fit-content;
+}
+.ttlCartPrice{
+  font-size: 2rem;
+  font-weight: 600;
+  color: brown;
+}
+.helouser{
+  font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem;
+    text-transform: capitalize;
+}
+
+ /* ======================================= searchbar =================================== */
+ .searchInput , .searchBTN{
+  font-size: 1.6rem;
+  font-weight: 500;
+ }
+ .searchInput {
+  padding: 1rem;
+  border: 0.1rem solid lightgray;
+  width: 50%;
+  box-shadow: none;
+  border-radius: 0.4rem;
+ }
+.searchBTN{
+  padding: 1rem 
+
+}
+ .searchBarMain{
+  padding: 1rem 
+ }
+
+ /* ========================== forms ======================================== */
+ .form-control{
+  font-size: 1.6rem;
+  padding: 1rem;
+  border: 0.1rem solid gold;
+  border-radius: 1.1rem;
+  font-weight: 500;
+  box-shadow: 0.1rem 0.1rem 0.1rem gold;
+}
+ .form-control:focus{
+  border-color: #ffc107;
+ }
+
+
+ @media screen and  (min-width:300px) and (max-width:430px) {
+  html {
+    font-size: 42.5%;
+  }
+  .width75-100{
+    width: 100%;
+  }
+  .ordertable {
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+}
+@media screen and  (min-width:430px) and (max-width:575px) {
+  html {
+    font-size: 50%;
+  }
+  .width75-100{
+    width: 100%;
+  }
+  
+  }
+  
+
+@media screen and (min-width:574px) and (max-width:767px) {
+  html {
+    font-size: 55.5%;
+  }
+  .width75-100{
+    width: 100%;
+  }
+  
+}
+
+@media screen and (min-width:765px) and (max-width:990px) {
+  html {
+    font-size: 55.5%;
+  }
+
+ .allproductsAdminCol{
+  width: 50%;
+ }
+  
+  
+}
+
+
+  @media screen and (min-width:1600px) and (max-width:2560px) {
+    .layout{
+      width: 1600px;
+      margin: 0 auto;
+    }
+  }
