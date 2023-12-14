@@ -117,7 +117,7 @@ const filteredProduct = async() =>{
                       <img src={`https://vercel-api-deployment.vercel.app/api/v1/product/product-photo/${p?._id}`} className="card-img-top" alt="..." />
                       <div className="card-body">
                         <h5 className="card-title productTitle">{p.name}</h5>
-                        <p className="card-text paragraphText">{p.description.substring(0, 30)}</p>
+                        <p className="card-text paragraphText">{p.description.substring(0, 30)}...</p>
                         <p className="card-text price">{p.price}$</p>
                         <NavLink to={`/productdetail/${p.slug}`} className="btn btn-info cartDetailBTN">More Details</NavLink>
                         <NavLink className="btn btn-primary cartDetailBTN"
