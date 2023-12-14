@@ -52,7 +52,7 @@ console.log("error in getting product details")
                     <h1 className='p-3'>ProductDetail</h1>
 
                     <div className='col-md-4'>
-                        <img src={`https://vercel-api-deployment.vercel.app/api/v1/product/product-photo/${id}`} />
+                        <img src={`https://vercel-api-deployment.vercel.app/api/v1/product/product-photo/${id}`} className = "pDetailImg"/>
                     </div>
                     <div className='col-md-6'>
                         <div className='card'>
