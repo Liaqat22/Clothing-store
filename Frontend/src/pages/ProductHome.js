@@ -115,7 +115,7 @@ const filteredProduct = async() =>{
         <div className='offcanvasmain'>
         <button className="btn btn-primary cartDetailBTN mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" style={{width:"100%"}}>Filters <i className=" fa-solid fa-filter mx-3"/></button>
         <div className="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabIndex={-1} id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-<button type="button" className="btn-close cartDetailBTN p-3" style={{font-size:"medium"}} data-bs-dismiss="offcanvas" aria-label="Close" />
+<button type="button" className="btn-close cartDetailBTN p-3" data-bs-dismiss="offcanvas" aria-label="Close" />
 
           <div className="offcanvas-body">
       
