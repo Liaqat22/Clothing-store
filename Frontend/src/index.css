@@ -18,6 +18,11 @@ html{
 img{
   width: 100%;
 }
+.sliderimages{
+  width: 100%;
+  height: 30rem;
+  object-fit: inherit;
+}
 .pDetailImg{
   width: 100%;
     height: 40rem;
@@ -43,6 +48,14 @@ img{
   border-bottom: .2rem solid rgb(7, 198, 141);
 }
 /* ============================================ Navbar ========================================== */
+.offcanvasmain{
+  width: 55%;
+  padding: 1rem;
+  display: none;
+}
+.offcanvas{
+  width: 57%;
+}
 .nav-link{
   font-size: 1.8rem;
   font-weight: 500;
@@ -183,6 +196,12 @@ transition: 0.3s;
   .width75-100{
     width: 100%;
   }
+  .filters{
+    display: none;
+  }
+  .offcanvasmain  {
+    display: block;
+  }
   .ordertable {
     white-space: nowrap;
     display: block;
@@ -199,7 +218,12 @@ transition: 0.3s;
   .width75-100{
     width: 100%;
   }
-  
+  .filters{
+    display: none;
+  }
+  .offcanvasmain  {
+    display: block;
+  }
   }
   
 
@@ -207,10 +231,17 @@ transition: 0.3s;
   html {
     font-size: 55.5%;
   }
+  .filters{
+    display: none;
+  }
+  .offcanvasmain  {
+    display: block;
+  }
   .width75-100{
     width: 100%;
   }
   
+
 }
 
 @media screen and (min-width:765px) and (max-width:990px) {
@@ -221,7 +252,9 @@ transition: 0.3s;
  .allproductsAdminCol{
   width: 50%;
  }
-  
+  .homePimgCOL{
+    width: 50%;
+  }
   
 }
 
